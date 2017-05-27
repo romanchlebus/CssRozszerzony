@@ -39,6 +39,45 @@
 #lang p:lang(en){
     background-color: deeppink;
 }
+/*Inne pseudo klasy*/
+
+#first-child .lista li:first-child{
+    background-color: green;
+}
+#first-child .lista li:last-child{
+    background-color: pink;
+}
+
+div span:only-child{
+    background-color: red;
+}
+div:empty {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+/*:nth-child/nth-last-child*/
+#nth-child ul li:nth-child(3){
+    background-color: blue;
+}
+#nth-child ul li:nth-child(even){
+    background-color: green;
+}
+#nth-child ul li:nth-child(odd){
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
