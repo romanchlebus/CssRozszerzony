@@ -1,4 +1,47 @@
+/*Pseudoelementy*/
 #before .pierwszy::before {
     content: "przed elementem ";
     color: red;
 }
+#after .drugi::after {
+    content: " po elemencie";
+    color: green;
+}
+
+#first-letter p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+#first-line p::first-line{
+    background-color: yellow;
+}
+/*Pseudo klasy*/
+#link a:link{
+    color: orange;
+    
+}
+#link a:visited {
+    color: pink;
+}
+#link a:active{
+    color: yellow;
+}
+:target{
+    background-color: aqua;
+}
+#before:hover {
+    color: red;
+}
+#focus input:focus{
+    border: 5px solid green;
+}
+
+#lang p:lang(en){
+    background-color: deeppink;
+}
+
+
+
+
+
+
