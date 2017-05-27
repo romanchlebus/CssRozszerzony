@@ -67,16 +67,33 @@ div:empty {
 #nth-child ul li:nth-child(odd){
     background-color: pink;
 }
+#nth-child ul li:nth-child(3n+2){
+    font-size: 30px;
+}
 
+#nth-last-child ul li:nth-last-child(3n+2){
+    background-color: pink;
+    font-size: 30px;
+}
+#nth-last-child ul li:nth-last-child(3){
+    background-color: yellow;
+    font-size: 30px;
+}
 
-
-
-
-
-
-
-
-
+/*selektory atrybutów*/
+input[type="text"]
+{
+    border: 10px solid grey;
+}
+#attributes a[title~="opis"]
+{
+    font-size: 40px;
+}
+#attributes a[title*="link"]
+{
+    font-size: 40px;
+    background-color: yellow;
+}
 
 
 
