@@ -1,0 +1,4 @@
+#before .pierwszy::before {
+    content: "przed elementem ";
+    color: red;
+}
