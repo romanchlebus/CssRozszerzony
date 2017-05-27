@@ -94,10 +94,37 @@ input[type="text"]
     font-size: 40px;
     background-color: yellow;
 }
+#attributes a[title^="opis"]
+{
+    font-size: 25px;
+    background-color: gray;
+}
+#attributes a[title$="linka"]
+{
+    font-size: 30px;
+    background-color: red;
+}
 
+/*Floating*/
 
-
-
-
-
-
+#floating > div{
+    float: left;
+    width: 10opx;
+    height: 100px;
+    background-color: gray;
+}
+#floating .clear{
+    clear: both;
+}
+/*transition*/
+#transition .hovered{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+/*    transition-property: background-color;*/
+/*    transition-duration: 5s;    */
+    transition: all 3s ease-in-out;
+}
+#transition .hovered:hover{
+    background-color: green;
+}
