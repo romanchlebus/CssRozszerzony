@@ -128,3 +128,16 @@ input[type="text"]
 #transition .hovered:hover{
     background-color: green;
 }
+/*wlasciwosci tla*/
+#background{
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    background-image: 
+        url('http://samequizy.pl/wp-content/uploads/2017/01/filing_images_68bb5b86ee70-13.jpg');
+        background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
